@@ -1,0 +1,16 @@
+name: env_py4eng
+channels:
+  - pypi
+dependencies:
+  - python >= 3.7
+  - numpy
+  - pandas
+  - tqdm
+  - pip
+  - nodejs
+  - jupyter
+  - jupyterlab==2.2.7
+  - jupyterlab-git
+  - pip:
+      - streamlit
+      - wget
