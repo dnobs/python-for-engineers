@@ -9,7 +9,7 @@ bash Miniconda3-latest-Linux-x86_64.sh
 # restart shell, to have access to conda, or open a new shell within that one
 
 # setup virtual env from enviorment file
-conda env create -f enviornment.yml
+conda env create -f environment.yml
 conda activate env_py4eng
 
 # if no enviornment file,
