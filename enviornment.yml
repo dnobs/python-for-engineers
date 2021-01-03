@@ -4,6 +4,8 @@ channels:
 dependencies:
   - python >= 3.7
   - numpy
+  - scipy
+  - matplotlib
   - pandas
   - tqdm
   - pip
