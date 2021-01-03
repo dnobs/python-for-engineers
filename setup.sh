@@ -23,7 +23,6 @@ conda activate env_py4eng
 jupyter labextension install @axlair/jupyterlab_vim
 jupyter labextension install @jupyterlab/git
 jupyter labextension install @jupyterlab/toc
-jupyter labextension install @jupyterlab-plotly
 jupyter lab build
 
 # that's it, open new terminal, re-activate our env, and lauch jupyter
