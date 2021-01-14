@@ -27,16 +27,3 @@ jupyter lab build
 
 # that's it, open new terminal, re-activate our env, and lauch jupyter
 jupyter lab
-
-# install NetExtender for VPN access
-curl -O https://software.sonicwall.com/NetExtender/NetExtender.Linux-10.2.817.x86_64.tgz
-tar zxvf NetExtender.Linux-10.2.817.x86_64.tgz
-sudo apt-get install net-tools
-sudo apt-get install pptpd
-mknod /dev/ppp c 108 0
-cd netExtenderClient
-sudo ./install # may need to add "--force-install"
-
-# connect to VPN
-sudo netExtender -s vpn.epcpower.com:4433 -d LocalDomain
-
