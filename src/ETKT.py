@@ -1,6 +1,7 @@
 # Helper function for searching documentation
 # Use example: ("create_.*()", "schematic_api_docs.txt")
 # This will search the file and come up with a list of things that are "created"
+import re
 
 def extract_unique_strings(regexp_str, file_name, bad_endings=['\n', '(', ' ']):
     

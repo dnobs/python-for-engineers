@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/dnobs/python-for-engineers",
-    py_modules=["PyFeng"],
+    py_modules=["ETKT"],
     package_dir={'': 'src'},
     classifiers=[
         "Programming Language :: Python :: 3",
