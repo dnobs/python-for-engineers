@@ -1,0 +1,1 @@
+# just run "1_setup_local.sh" on the remote machine
