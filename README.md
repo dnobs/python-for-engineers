@@ -1,8 +1,8 @@
-# python-for-engineers
-Intro to Python for Engineers
+# python-for-engineers: an open-source python toolkit for engineers
 
-TODO: integrate .py files
+### Purpose and Scope:
+- Easily setup both a local and remote jupyter lab with git integration
+- This will allow for fast iterative developtment
+- By leveraging containers we will also ensure that the result is easily deployable and manageble
+
 TODO: integrate colab, in a smooth git-friendly way
-
-scope: easily setup a remote jupyter lab, from a local machine
-this will allow for "live" developtment
