@@ -1,0 +1,10 @@
+# Create container from jupyter image
+docker container run -it -d --name etkt-container -p 8888:8888 jupyter/minimal-notebook:latest start.sh jupyter lab
+
+# setup jupyter lab preferred extensions
+docker exec etkt-container pip install jupyterlab==2.2.7 jupyterlab-git; docker exec etkt-container jupyter labextension install @axlair/jupyterlab_vim @jupyterlab/git @jupyterlab/toc; docker stop etkt-container ; docker start -i etkt-container
+
+# Set editor to vim
+# clone repo from my github
+# make repo importable in python
+pip install -e .
